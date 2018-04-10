@@ -15,57 +15,294 @@ If you run into trouble, Google is your friend; there should be a lot of availab
 '''
 ----------------------------------
 hostname
-
+MSI
+it returns the name of the brand of computer i am using
 
 
 
 ----------------------------------
 netstat
+Active Connections
 
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:1120         MSI:49761              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49762              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49767              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49769              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49770              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49771              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49772              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49773              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49774              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49775              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49776              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49777              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49780              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49782              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49783              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49784              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49785              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49786              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49787              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49788              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49790              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49791              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49792              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49793              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49794              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49795              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49796              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49797              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49798              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49799              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49800              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49801              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49802              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49803              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49807              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49808              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49809              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49811              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49812              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49814              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49815              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49816              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49819              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49820              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49824              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49825              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49826              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49827              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49828              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49829              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49830              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49831              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49832              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49833              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49837              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49838              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49839              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49840              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49841              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49842              TIME_WAIT
+  TCP    127.0.0.1:1120         MSI:49843              TIME_WAIT
+  TCP    127.0.0.1:5309         MSI:50661              ESTABLISHED
+  TCP    127.0.0.1:12080        MSI:49737              FIN_WAIT_2
+  TCP    127.0.0.1:12080        MSI:49740              TIME_WAIT
+  TCP    127.0.0.1:12080        MSI:49763              TIME_WAIT
+  TCP    127.0.0.1:12080        MSI:49778              TIME_WAIT
+  TCP    127.0.0.1:12080        MSI:49804              TIME_WAIT
+  TCP    127.0.0.1:12080        MSI:49821              FIN_WAIT_2
+  TCP    127.0.0.1:49737        MSI:12080              CLOSE_WAIT
+  TCP    127.0.0.1:49821        MSI:12080              CLOSE_WAIT
+  TCP    127.0.0.1:49833        MSI:49834              ESTABLISHED
+  TCP    127.0.0.1:49834        MSI:49833              ESTABLISHED
+  TCP    127.0.0.1:49835        MSI:49836              ESTABLISHED
+  TCP    127.0.0.1:49836        MSI:49835              ESTABLISHED
+  TCP    127.0.0.1:50661        MSI:5309               ESTABLISHED
+  TCP    127.0.0.1:52179        MSI:52180              ESTABLISHED
+  TCP    127.0.0.1:52180        MSI:52179              ESTABLISHED
+  TCP    149.161.164.56:49636   24.105.29.76:https     CLOSE_WAIT
+  TCP    149.161.164.56:49731   ec2-34-224-163-45:https  TIME_WAIT
+  TCP    149.161.164.56:49736   24.105.29.76:https     CLOSE_WAIT
+  TCP    149.161.164.56:49765   ec2-107-20-160-179:http  TIME_WAIT
+  TCP    149.161.164.56:49766   ec2-107-20-160-179:http  TIME_WAIT
+  TCP    149.161.164.56:49789   ec2-34-195-102-206:https  TIME_WAIT
+  TCP    149.161.164.56:49810   40.69.223.39:https     ESTABLISHED
+  TCP    149.161.164.56:49813   ec2-34-224-163-45:https  ESTABLISHED
+  TCP    149.161.164.56:49817   ec2-107-20-160-179:http  ESTABLISHED
+  TCP    149.161.164.56:49818   ec2-107-20-160-179:http  ESTABLISHED
+  TCP    149.161.164.56:49835   ec2-34-195-102-206:https  ESTABLISHED
+  TCP    149.161.164.56:54578   47:https               ESTABLISHED
+  TCP    149.161.164.56:54581   104.16.60.37:https     ESTABLISHED
+  TCP    149.161.164.56:55071   ec2-107-23-118-221:https  ESTABLISHED
+  TCP    149.161.164.56:55189   24.105.28.10:1119      ESTABLISHED
+  TCP    149.161.164.56:61724   186:4070               ESTABLISHED
+  TCP    149.161.164.56:61770   db5sch101110442:https  ESTABLISHED
+  TCP    149.161.164.56:61771   db5sch101110618:https  ESTABLISHED
+  TCP    149.161.164.56:63835   62:https               ESTABLISHED
+  TCP    [2001:18e8:2:28b8:71a3:3773:ff83:3d6a]:65094  ord31s21-in-x13:https  ESTABLISHED
+PS C:\WINDOWS\system32>
 
-
+displays active tcp ports
 
 ----------------------------------
 ipconfig /all
 
+Windows IP Configuration
 
+   Host Name . . . . . . . . . . . . : MSI
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : indiana.edu
+
+Ethernet adapter Ethernet 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Killer E2500 Gigabit Ethernet Controller #2
+   Physical Address. . . . . . . . . : 4C-CC-6A-DD-67-92
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 10-F0-05-30-37-C1
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi 2:
+
+   Connection-specific DNS Suffix  . : indiana.edu
+   Description . . . . . . . . . . . : Intel(R) Dual Band Wireless-AC 3168 #2
+   Physical Address. . . . . . . . . : 10-F0-05-30-37-C0
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2001:18e8:2:28b8:b8d8:315b:efab:8c66(Preferred)
+   Temporary IPv6 Address. . . . . . : 2001:18e8:2:28b8:71a3:3773:ff83:3d6a(Preferred)
+   Link-local IPv6 Address . . . . . : fe80::b8d8:315b:efab:8c66%14(Preferred)
+   IPv4 Address. . . . . . . . . . . : 149.161.164.56(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.192.0
+   Lease Obtained. . . . . . . . . . : Monday, April 9, 2018 1:53:33 PM
+   Lease Expires . . . . . . . . . . : Monday, April 9, 2018 4:09:10 PM
+   Default Gateway . . . . . . . . . : fe80::18e8:2:28b8:1%14
+                                       149.161.128.1
+   DHCP Server . . . . . . . . . . . : 10.79.1.222
+   DHCPv6 IAID . . . . . . . . . . . : 185659397
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-22-58-17-3A-4C-CC-6A-DD-67-92
+   DNS Servers . . . . . . . . . . . : 10.79.1.1
+                                       10.234.220.20
+                                       10.79.1.2
+   Primary WINS Server . . . . . . . : 129.79.1.200
+   Secondary WINS Server . . . . . . : 129.79.5.200
+                                       134.68.220.14
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : 10-F0-05-30-37-C4
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Teredo Tunneling Pseudo-Interface
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2001:0:9d38:6ab8:843:1b1d:6a5e:5bc7(Preferred)
+   Link-local IPv6 Address . . . . . : fe80::843:1b1d:6a5e:5bc7%15(Preferred)
+   Default Gateway . . . . . . . . . :
+   DHCPv6 IAID . . . . . . . . . . . : 301989888
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-22-58-17-3A-4C-CC-6A-DD-67-92
+   NetBIOS over Tcpip. . . . . . . . : Disabled
+
+   gives info about all the ip connects to the computer
 
 
 ----------------------------------
 nslookup www.iub.edu
 
+Server:  ns6.iu.edu
+Address:  10.79.1.1
 
+Name:    www.iub.edu
+Addresses:  129.79.78.186
+          129.79.78.185
+
+ gives info about the server that was typed in
 
 
 ----------------------------------
 nslookup www.google.com
 
+Server:  ns6.iu.edu
+Address:  10.79.1.1
 
+Non-authoritative answer:
+Name:    www.google.com
+Addresses:  2607:f8b0:4009:808::2004
+          172.217.8.196
+ gives info about the server that was typed in
 
 
 ----------------------------------
 ping www.iub.edu
 
+Pinging www.iub.edu [129.79.78.186] with 32 bytes of data:
+Reply from 129.79.78.186: bytes=32 time=1ms TTL=61
+Reply from 129.79.78.186: bytes=32 time=1ms TTL=61
+Reply from 129.79.78.186: bytes=32 time=1ms TTL=61
+Reply from 129.79.78.186: bytes=32 time=1ms TTL=61
 
+Ping statistics for 129.79.78.186:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+sends a signal to the server to see how fast data is sent and received
 
 
 ----------------------------------
 ping www.google.com
 
+Pinging www.google.com [2607:f8b0:4009:808::2004] with 32 bytes of data:
+Reply from 2607:f8b0:4009:808::2004: time=7ms
+Reply from 2607:f8b0:4009:808::2004: time=7ms
+Reply from 2607:f8b0:4009:808::2004: time=7ms
+Reply from 2607:f8b0:4009:808::2004: time=46ms
 
+Ping statistics for 2607:f8b0:4009:808::2004:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 7ms, Maximum = 46ms, Average = 16ms
 
+sends a signal to the server to see how fast data is sent and received
 
 ----------------------------------
 tracert www.iub.edu
 
+Tracing route to www.iub.edu [129.79.78.186]
+over a maximum of 30 hops:
 
+  1     1 ms     1 ms     1 ms  bl-149-161-128-2.reserved.iu.edu [149.161.128.2]
+  2     1 ms     1 ms     1 ms  ae-15.0.br2.bldc.net.uits.iu.edu [134.68.3.74]
+  3     1 ms     1 ms     1 ms  ae-33.932.dcr3.bldc.net.uits.iu.edu [134.68.3.129]
+  4     1 ms     1 ms     1 ms  zeus1-iub.gateway.indiana.edu [129.79.78.186]
 
+Trace complete.
+
+traces the amount of ways to reach iub.edu
 
 ----------------------------------
 tracert www.google.com
 
+Tracing route to www.google.com [2607:f8b0:4009:808::2004]
+over a maximum of 30 hops:
 
+  1     1 ms     1 ms     1 ms  ae-20.2232.cr5.bldc.net.uits.iu.edu [2001:18e8:2:28b8::2]
+  2     1 ms     1 ms     1 ms  ae-15.0.br2.bldc.net.uits.iu.edu [2001:18e8:3:f016::2]
+  3     3 ms     3 ms     3 ms  2001:18e8:ff00:90::1
+  4     4 ms     3 ms     3 ms  2001:18e8:ff00:13::1
+  5     7 ms     7 ms     8 ms  2001:18e8:ffff:10::1
+  6     8 ms    15 ms     7 ms  2001:18e8:ffff:10::2
+  7     8 ms     7 ms     7 ms  google-peer-equinix.wiscnet.net [2001:4e0:0:310d::2]
+  8     8 ms     8 ms     8 ms  2001:4860:0:1010::1
+  9     7 ms     7 ms     7 ms  2001:4860:0:1::1e17
+ 10     7 ms     7 ms     7 ms  ord31s21-in-x04.1e100.net [2607:f8b0:4009:808::2004]
 
+Trace complete.
+
+traces the amount of ways to reach google.com
 
 ----------------------------------
 telnet esqsoft.com 80

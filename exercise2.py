@@ -6,8 +6,10 @@ For each function, add three (doctest) unit tests. Each test should pass. The py
 I have done the first one for you as an example. IDLE may be a useful way to see the expected output
 
 '''
+
+
 def multiply(a, b):
-	"""
+    """
 	>>> multiply(4, 3)
 	12
 	>>> multiply('a', 3)
@@ -15,67 +17,73 @@ def multiply(a, b):
 	>>> multiply((0,1),4)
 	(0, 1, 0, 1, 0, 1, 0, 1)
 	"""
-	return a * b
+    return a * b
 
 
 def divide(a, b):
+    """
+	>>> divide(12, 3)
+	4.0
+	>>> divide('a', 3)
+	"You can't divide that data type!"
+	>>> divide(1,0)
+	"You can't divide by zero!"
 	"""
-	
-	
-	
-	"""
-	try:
-		return float(a) / float(b)
-	except ValueError:
-		return "You can't divide that data type!"
-	except ZeroDivisionError:
-		return "You can't divide by zero!"
+    try:
+        return float(a) / float(b)
+    except ValueError:
+        return "You can't divide that data type!"
+    except ZeroDivisionError:
+        return "You can't divide by zero!"
 
 
 def check_proximity(xy1, xy2):
+    """
+	>>> check_proximity(12, 3)
+	False
+	>>> check_proximity((3,3), (3,4))
+	True
+	>>> check_proximity((1,0), (2,1))
+	False
 	"""
-	
-	
-	
-	
-	"""
-	if type(xy1) is not tuple or type(xy2) is not tuple: return False
-	if len(xy1) != 2 or len(xy2) != 2: return False
-	if xy1 == xy2: return False
-	if (abs(xy1[0] - xy2[0]) <= 1 and xy1[1] == xy2[1]) or (abs(xy1[1] - xy2[1]) <= 1 and xy1[0] == xy2[0]):
-		return True
-	return False
+    if type(xy1) is not tuple or type(xy2) is not tuple: return False
+    if len(xy1) != 2 or len(xy2) != 2: return False
+    if xy1 == xy2: return False
+    if (abs(xy1[0] - xy2[0]) <= 1 and xy1[1] == xy2[1]) or (abs(xy1[1] - xy2[1]) <= 1 and xy1[0] == xy2[0]):
+        return True
+    return False
 
 
-
-def update(x,y,dx,dy,gravity,air_resistance,WIDTH,HEIGHT):
+def update(x, y, dx, dy, gravity, air_resistance, WIDTH, HEIGHT, friction):
+    """
+	>>> update(10, 3, 5, 6, 3, 0.5, 400, 500, 0.4)
+	(10, 3, 2.5, 4.5)
+	>>> update(50, 100, 20, -8, 5, 0.2, 400, 500, 0.3)
+	(50, 100, 16.0, -2.4000000000000004)
+	>>> update(400, 0, 5, 6, 3, 0.5, 400, 500, 0.4)
+	(400, 0, -1.5, -2.6999999999999997)
 	"""
-		
-		
-		
-		
-	"""
-	dy = dy + gravity
-	dx *= (1.0-air_resistance)
-	dy *= (1.0-air_resistance)
-	
-	if x >= WIDTH:
-		x = WIDTH
-		dx = dx * -1 * (1.0-friction)
-	if x <= 0:
-		x = 0
-		dx = dx * -1 * (1.0-friction)
-	if y <= 0:
-		y = 0
-		dy = dy * -1 * (1.0-friction)
-	if y >= HEIGHT:
-		y = HEIGHT
-		dx = dx * -1 * (1.0-friction)
-		dy = dy * -1 * (1.0-friction)
-	return (x,y,dx,dy)
+    dy = dy + gravity
+    dx *= (1.0 - air_resistance)
+    dy *= (1.0 - air_resistance)
 
+    if x >= WIDTH:
+        x = WIDTH
+        dx = dx * -1 * (1.0 - friction)
+    if x <= 0:
+        x = 0
+        dx = dx * -1 * (1.0 - friction)
+    if y <= 0:
+        y = 0
+        dy = dy * -1 * (1.0 - friction)
+    if y >= HEIGHT:
+        y = HEIGHT
+        dx = dx * -1 * (1.0 - friction)
+        dy = dy * -1 * (1.0 - friction)
+    return (x, y, dx, dy)
 
 
 if __name__ == '__main__':
-	import doctest
-	doctest.testmod(verbose=True)
+    import doctest
+
+    doctest.testmod(verbose=True)

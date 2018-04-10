@@ -20,27 +20,28 @@ logger = logging.getLogger(__name__)
 
 
 weather = 'http://samples.openweathermap.org/data/2.5/weather?q=London\u0026appid=b1b15e88fa797225412429c1c50c122a1'
-'''
+
 w = requests.get(weather)
-print(w.json())
 data = w.json()
 for key in data:
-	print('{0} -> {1}'.format(key,data[key]))
-'''
+	if key == 'main':
+		print(data[key]['humidity'])
+
 
 
 # -----------------------
 
 
 contacts = 'https://jsonplaceholder.typicode.com/users'
-'''
+
 c = requests.get(contacts)
-print(c.json())
 data = c.json()
 for d in data:
-	for key in d:
-		print('{0} -> {1}'.format(key, d[key]))
-'''
+	if d['name'] == 'Glenna Reichert':
+		for key in d:
+			if key == 'email':
+				print(d[key])
+
 
 
 # -----------------------
@@ -69,9 +70,10 @@ stop_words = []
 with open('stop_words.txt') as sw:
 	stop_words = sw.readlines()
 stop_words = [s.strip() for s in stop_words] #remove extra whitespace
-
-
 the_idiot = 'https://www.gutenberg.org/files/2638/2638-0.txt'
-'''
 book = requests.get(the_idiot).text
-'''
+words = book.lower().split()
+counter = 0
+for s in stop_words:
+	counter += collections.Counter(words)[s]
+print(counter)
